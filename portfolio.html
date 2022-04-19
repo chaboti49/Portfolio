@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+    <html lang="fr">
+        <head>
+            <meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
+            <title>Portfolio</title>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <link rel="stylesheet" href="css.css" type="text/css">
+        </head>
+
+        <!--Body-->
+        <body>
+            <!--navbar-->
+            <div class="nav">
+                <div ><img src="img/téléchargement.jpg" class="photo"/></div>
+                <div><h3 class="NomP">Antoine Chabeauti</h3></div>
+                <div class="divPre">
+                    <a href="#acceuil" class="btnPresentation">
+                        <i class="fa-solid fa-house-chimney imgPre"></i>
+                        <h5>Accueil</h5>
+                    </a>
+                </div>
+                <div class="divPre">
+                    <a href="#presentation" class="btnPresentation">
+                        <i class="fa-solid fa-person-chalkboard imgPre"></i>
+                        <h5>Présentation</h5>
+                    </a>
+                </div>
+                <div class="divPre">
+                    <a href="#projet" class="btnPresentation">
+                        <i class="fa-solid fa-diagram-project imgPre"></i>
+                        <h5>Projet</h5>
+                    </a>
+                </div>
+                <div class="divPre">
+                    <a href="#competence" class="btnPresentation">
+                        <i class="fa-solid fa-gear imgPre"></i>
+                        <h5>Compétence</h5>
+                    </a>
+                </div>
+                <div class="divPre">
+                    <a href="#contact" class="btnPresentation">
+                        <i class="fa-solid fa-envelope imgPre"></i>
+                        <h5>Contact</h5>
+                    </a>
+                </div>
+                <div class="divPre">
+                    <a href="#mentionLeg" class="btnPresentation">
+                        <i class="fa-solid fa-gavel imgPre"></i>
+                        <h5>Mention légale</h5>
+                    </a>
+                </div>
+                <div class="end">
+                    <a href="https://www.linkedin.com/in/antoine-chabeauti-b9772522a/" target="_blank" class="mention"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <!--Acceuil-->
+            <div id="acceuil" class="sansMenu">
+                <p class="bienvenue">Salut,<br>Je m'appelle Antoine Chabeauti<br>Je suis étudiant en BTS Informatique.<br>Et voici donc mon Portfolio</p>
+                <br>
+                <br>
+            </div>
+            <!--Presentation-->
+            <div id="presentation" class="sansMenu">
+                <div class="titre">
+                    <h1>A Propos De Moi</h1> 
+                </div>
+                <div class="moi">
+                    <h3>Je m'appelle Antoine, j'ai actuellement 18 ans, je suis en BTS SIO c'est a dire BTS Informatique 
+                        <br><br><br><br><br>
+                    </h3>
+                </div>
+            </div>
+            <!--Projet-->
+            <div id="projet" class="sansMenu">
+                <div class="titre">
+                    <h1>Mes Projets</h1>
+                </div>
+                <div class="heu moi"></div>
+                    <div class="slider">
+                        <div class="slides">
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <div class="slide first">
+                            <div>
+                                <h3>
+                                    ce projet a été fait en 1 semaine où l'ont devait créer un site de son choix, 
+                                    pour ce site nous devions utiliser Bootstrap un framework utile, de plus nous devions mettre ce site
+                                    en ligne via une machine virtuel. Ce projet m'as notament aider a develloper mes connaissances dans le 
+                                    html et m'as fait apprendre Bootstrap.
+                                </h3>
+                                <a href="https://antoine.jeffetrelie.fr/" target="_blank" class="lien-projet">Voir le Projet</a>
+                            </div>
+                            <img src="img/projet-SLAM.png" alt="">
+                        </div>
+                        <div class="slide">
+                            <div>
+                                <h3>
+                                    Ce projet a été fait du DATE au 02 Fevrier 2022, nous devions créer un site Wordpress avec une partie article, une partie 
+                                    boutique, créer des compte avec des permission differente, ce projet nous as aidez a apprendre Wordpress et a faire une documentation 
+                                    sur ce site (ce que nous devions rendre)
+                                </h3>
+                                <a href="DOCUMENT/recettage-Wordpress.docx" download="" class="lien-projet">Voir le Projet</a>
+                            </div>
+                            <img src="img/accueil-wordpress.png" alt="">
+                        </div>
+                        <div class="navig-manual">
+                            <label for="radio2" class="manual-btn"></label>
+                            <label for="radio1" class="manual-btn"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Competence-->
+            <div id="competence" class="sansMenu">
+                <div class="titre">
+                    <h1>Mes Compétence</h1>
+                </div>
+                <div class="moi">
+                    <h3>Je Ne Sais PAS PAS APS APS APS APS APS APS APS ASPA PSA SPA SPA SPA</h3>
+                </div>
+            </div>
+            <!--Contact-->
+            <div id="contact" class="sansMenu">
+                <div class="titre">
+                    <h1>Contacter Moi</h1>
+                </div>
+                <div class="contactMoi">
+                    <div>
+                        <h3>Vous pouvez me contacter via ce formulaire.</h3>
+                    </div>
+                    <div>
+                        <form action="" method="post" class="contact">
+                            <div>
+                                <input type="text" placeholder="Nom..." class="nom">
+                            </div>
+                            <div>
+                                <input type="email" placeholder="Mail..." class="mail">
+                            </div>
+                            <div>
+                                <textarea name="msg" id="msgContact" cols="30" rows="10" placeholder="Message..."></textarea>
+                            </div>
+                            <div>
+                                <button type="button" class="btnC">Envoyer</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </html>
