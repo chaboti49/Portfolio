@@ -254,19 +254,28 @@ html, body{
     color: rgb(121, 250, 154);
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
     .nav{
         width: 10em;
     }
+    .sansMenu{
+        margin-left: 10em;
+        margin-right: 10px;
+    }
+    .slide{
+        display: inline-block ;
+        height: 10px;
+        margin-top: 250px;
+    }
     .slide img{
-        width: 350px;
-        height: 250px;
+        width: 450px;
+        height: 270px;
     }
     .slides{
         height: 300px;
     }
     .navig-manual{
-        margin-left: -15%;
+        justify-content: flex-start;
     }
     .pre{
         display: contents;
@@ -274,21 +283,40 @@ html, body{
     }
     .bienvenue{
         font-size: 40px;
-        margin-left: 15px;
+        margin-left: 10px;
     }
     #projet{
         margin-top: 20px;
         margin-bottom: -100px;
     }
+    .txtP{
+        margin-bottom: -435px;
+        margin-top: 50px;
+    }
+    #competence{
+        margin-top: 100px;
+    }
 }
 
-@media screen and (min-width: 800px) and (max-width: 1280px){
+@media screen and (max-width: 1000px) and (min-width: 900px){
+    .txtP{
+        margin-bottom: -400px;
+        margin-top: 50px;
+    }
+}
+
+
+
+@media screen and (min-width: 1000px) and (max-width: 1280px){
     .nav{
         width: 10em;
     }
+    .sansMenu{
+        margin-left: 10em;
+    }
     .slide img{
-        width: 350px;
-        height: 250px;
+        width: 550px;
+        height: 300px;
     }
     .slides{
         height: 300px;
