@@ -70,13 +70,11 @@ html, body{
     color: rgb(0, 0, 0);
     padding: 6px;
     font-size: 20px;
-    display: flex;
-    text-decoration: none;
     transition: 1s ease;
 }
 
 .mention:hover{
-    color: #0ac4bb;
+    color: rgb(121, 250, 154);
 }
 
 .bienvenue{
@@ -117,6 +115,7 @@ html, body{
     width: 500%;
     height: 500px;
     display: flex;
+    text-align: center;
 }
 
 .slides input{
@@ -144,6 +143,7 @@ html, body{
     margin-top: -40px;
     display: flex;
     justify-content: center;
+    margin-left: 15%;
 }
 
 .manual-btn{
@@ -245,7 +245,6 @@ html, body{
 
 .pre img{
     width: 200px;
-    border: 2px solid rgb(121, 250, 154);
     background-color: white;
     border-radius: 10px;
 }
@@ -253,4 +252,60 @@ html, body{
 .motIta{
     font-size: 20px;
     color: rgb(121, 250, 154);
+}
+
+@media screen and (max-width: 800px){
+    .nav{
+        width: 10em;
+    }
+    .slide img{
+        width: 350px;
+        height: 250px;
+    }
+    .slides{
+        height: 300px;
+    }
+    .navig-manual{
+        margin-left: -15%;
+    }
+    .pre{
+        display: contents;
+        margin-top: 2px;
+    }
+    .bienvenue{
+        font-size: 40px;
+        margin-left: 15px;
+    }
+    #projet{
+        margin-top: 20px;
+        margin-bottom: -100px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1280px){
+    .nav{
+        width: 10em;
+    }
+    .slide img{
+        width: 350px;
+        height: 250px;
+    }
+    .slides{
+        height: 300px;
+    }
+    .navig-manual{
+        margin-left: -15%;
+    }
+    .pre{
+        display: contents;
+        margin-top: 2px;
+    }
+    .bienvenue{
+        font-size: 40px;
+        margin-left: 15px;
+    }
+    #projet{
+        margin-top: 20px;
+        margin-bottom: -100px;
+    }
 }
